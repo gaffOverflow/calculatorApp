@@ -4,10 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 text-center p-6">
-  <p class="text-base">Hello TailwindCss</p>
+<body class="bg-default text-center">
+  <div class="container grid place-content-center h-screen">
+    <div class="calc grid grid-cols-4 gap-4 shadow-sec-shadow pt-16 pb-4 px-5 rounded-2xl">
+      <input type="text" name="" id="inputText" placeholder="0" class=" bg-default col-span-4 w-60 shadow-pry-shadow py-3 rounded-full text-right pr-5 text-3xl text-black focus:outline-none ">
+      <button class="btn-primary">C</button>
+      <button class="text-red-600 border-solid bg-white shadow-pry-shadow rounded-full">DEL</button>
+      <button class="btn-primary">%</button>
+      <button class="btn-primary">/</button>
+      <button class="btn-primary">7</button>
+      <button class="btn-primary">8</button>
+      <button class="btn-primary">9</button>
+      <button class="btn-primary">*</button>
+      <button class="btn-primary">4</button>
+      <button class="btn-primary">5</button>
+      <button class="btn-primary">6</button>
+      <button class="btn-primary">-</button>
+      <button class="btn-primary">1</button>
+      <button class="btn-primary">2</button>
+      <button class="btn-primary">3</button>
+      <button class="btn-primary">+</button>
+      <button class="btn-primary">.</button>
+      <button class="btn-primary">0</button>
+      <button class="col-span-2 bg-white rounded-full shadow-sec-shadow">=</button>
+    </div>
+  </div>
 </body>
 </html>
