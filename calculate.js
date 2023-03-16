@@ -2,7 +2,6 @@ let result = document.getElementById("inputText");
 
 let calculate = (number) => {
   result.value += number;
-  // if(number !== ".") return
 };
 
 let del = () => {
