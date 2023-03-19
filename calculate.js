@@ -14,9 +14,9 @@ let clr = () => {
 
 let answer = () => {
   try {
-    result.value = eval(result.value);
-    // result.value = Math.ceil(result.value) * 5
+    result.value = eval(result.value)
   } catch (e) {
-     alert('wrong input')
+    // alert("wrong input");
+    result.value = "Error";
   }
 };
