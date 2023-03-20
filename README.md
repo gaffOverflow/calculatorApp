@@ -1,5 +1,5 @@
 # calculatorApp
-Click [here]() to view app
+Click [here](https://gaffs-calculator.netlify.app) to view app
 ## Project Overview:
 This project is a simple calculator app built using HTML, CSS, and JavaScript. The calculator is designed to perform basic mathematical operations, such as addition, subtraction, multiplication, and division. The app is user-friendly and provides a simple interface for users to input their calculations.
 
